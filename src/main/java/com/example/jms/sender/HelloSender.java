@@ -15,7 +15,7 @@ public class HelloSender {
 
     private final JmsTemplate jmsTemplate;
 
-    @Scheduled(fixedRate = 2000)
+    @Scheduled(fixedRate = 100)
     public void sendMessage() {
 
         HelloWorldMessage message = HelloWorldMessage.builder()

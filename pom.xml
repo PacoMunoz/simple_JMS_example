@@ -22,6 +22,9 @@
 			<artifactId>spring-boot-starter-artemis</artifactId>
 		</dependency>
 
+		<!-- Estas dependencias solo valen si se necesita que
+		spring boot levante un servidor activemq.
+
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>artemis-server</artifactId>
@@ -30,7 +33,7 @@
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>artemis-jms-server</artifactId>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
